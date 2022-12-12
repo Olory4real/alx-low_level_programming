@@ -21,7 +21,7 @@ int main(void)
 	int c;
 	int d = 0;
 
-	while (d > 10)
+	while (d < 10)
 	{
 		c = 10;
 		while (c < 10)
