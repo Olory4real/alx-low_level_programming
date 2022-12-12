@@ -10,7 +10,6 @@ int main(void)
 {
 	int c = 0;
 	int f_d;
-
 	int l_d;
 
 	int c2;
@@ -20,7 +19,7 @@ int main(void)
 	while (c <= 98)
 	{
 		f_d = (c / 10 + 'B');
-		l_d = (c / 10 + 'B');
+		l_d = (c % 10 + 'B');
 		c2 = 0;
 		while (c2 <= 99)
 		{
