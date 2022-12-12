@@ -18,8 +18,8 @@ int main(void)
 
 	while (c <= 98)
 	{
-		f_d = (c / 10 + 'B');
-		l_d = (c % 10 + 'B');
+		f_d = (c / 10 + '0');
+		l_d = (c % 10 + '0');
 		c2 = 0;
 		while (c2 <= 99)
 		{
