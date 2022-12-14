@@ -24,7 +24,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(k + '0');
 			} else if (k >= 10)
-			}
+			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar((k / 10) + '0');
@@ -32,6 +32,7 @@ void times_table(void)
 
 			}
 		}
-		_putchar('\n');
+		_putchar ('\n');
 	}
 }
+
