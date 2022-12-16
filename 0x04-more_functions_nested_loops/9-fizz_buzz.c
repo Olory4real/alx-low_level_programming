@@ -14,6 +14,8 @@ int main(void)
 
 	int i;
 
+	i = 1;
+
 	for (i = 1; i <= 100; i++)
 	{
 
@@ -21,8 +23,8 @@ int main(void)
 
 	{
 	printf("Fizz");
-	}
-	else if (i % 5 == 0 && i % 3 != 0)
+
+	}else if (i % 5 == 0 && i % 3 != 0)
 	{
 	printf("Buzz");
 
