@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * main - check thebcode for
+ * main - check the code
  *
  * Return: Always 0.
  */
-
 int main(void)
-
 {
 	int array[5];
 
@@ -19,4 +17,3 @@ int main(void)
 	print_array(array, 5);
 	return (0);
 }
-
