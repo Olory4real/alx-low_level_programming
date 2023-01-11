@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * freee_grid -frees 2D grid created in alloc_grid.
+ * free_grid -frees 2D grid created in alloc_grid.
  * @grid: pointer to pointer
  * @height: height of the grid.
  *
