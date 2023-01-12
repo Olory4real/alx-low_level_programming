@@ -17,7 +17,7 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 	return (s);
-i}
+}
 /**
  * *_calloc - allocates memory for an array
  * @nmemb: number of elements in the array
