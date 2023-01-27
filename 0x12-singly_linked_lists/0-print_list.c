@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include "lists.h"
 
@@ -24,4 +23,3 @@ s++;
 
 return (s);
 }
-
