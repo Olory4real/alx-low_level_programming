@@ -30,7 +30,6 @@ if (*head == NULL)
 {
 *head = new;
 return (new);
-
 }
 
 while (temp->next)
