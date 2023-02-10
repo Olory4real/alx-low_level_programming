@@ -1,7 +1,5 @@
-<<<<<<< HEAD
+
 #include "main.h"
-=======
->>>>>>> 17aa0df4f25aa844aad6d7ca35b45631ebffebbc
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -46,10 +44,7 @@ void close_file(int fd)
 		exit(100);
 	}
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 17aa0df4f25aa844aad6d7ca35b45631ebffebbc
 /**
  * main - Copies the contents of a file to another file.
  * @argc: The number of arguments supplied to the program.
@@ -64,10 +59,6 @@ void close_file(int fd)
  */
 int main(int argc, char *argv[])
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> 17aa0df4f25aa844aad6d7ca35b45631ebffebbc
 	int from, to, r, w;
 	char *buffer;
 
@@ -104,10 +95,6 @@ int main(int argc, char *argv[])
 		to = open(argv[2], O_WRONLY | O_APPEND);
 
 	} while (r > 0);
-<<<<<<< HEAD
-
-=======
->>>>>>> 17aa0df4f25aa844aad6d7ca35b45631ebffebbc
 	free(buffer);
 	close_file(from);
 	close_file(to);
