@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 17aa0df4f25aa844aad6d7ca35b45631ebffebbc
 #ifndef MAIN_H
 #define MAIN_H
 
