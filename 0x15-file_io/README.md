@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+## [Main.h](./main.h) This Directory contains all the prototypes. 
+
+>>>>>>> 17aa0df4f25aa844aad6d7ca35b45631ebffebbc
 | File                      | Prototype                                                            |
 | ------------------------- | -------------------------------------------------------------------- |
 | `0-read_textfile.c`       | `ssize_t read_textfile(const char *filename, size_t letters);`       |
@@ -25,6 +30,7 @@
   * If `filename` is `NULL` or the funciton fails - returns `-1`.
   * Otherwise - returns `1` on success.
 
+<<<<<<< HEAD
 * `2. Speak gently, she can hear`
   * [2-append_text_to_file.c](./2-append_text_to_file.c): C function that appends text at
   the end of a file.
@@ -36,3 +42,5 @@
   * If the file does not exist or the user lacks write permissions on the file - returns `-1`.
   * Otherwise - returns `1`.
 
+=======
+>>>>>>> 17aa0df4f25aa844aad6d7ca35b45631ebffebbc
